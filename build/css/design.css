@@ -268,7 +268,7 @@ ul {
   border: 2px solid #7d695d;
 }
 .navbar {
-  background-color: rgba(255, 118, 0, 0.8);
+  background-color: #ff7600;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
@@ -478,6 +478,9 @@ form .input-right {
 body.index .section {
   overflow: hidden;
 }
+body.index .section-one {
+  color: #ffffff;
+}
 body.index .section-one .video {
   min-width: 100%;
   background: transparent url(video-bg.jpg) no-repeat;
@@ -500,7 +503,7 @@ body.index .section-one .header {
   top: 50%;
   left: 50%;
   width: 400px;
-  margin-top: -50px;
+  margin-top: -70px;
   transform: translateX(-50%);
   color: #ffffff;
   -webkit-border-radius: 5px;
@@ -510,6 +513,17 @@ body.index .section-one .header {
 }
 body.index .section-one .hello-introduction {
   color: #ffffff;
+}
+body.index .section-one select {
+  color: #333333;
+  border: 0;
+  width: 100%;
+  margin-top: 150px;
+  height: 50px;
+}
+body.index .section-one .text-center {
+  font-size: 16px;
+  padding-top: 20px;
 }
 body.index .section-one input {
   margin-top: 150px;
@@ -522,36 +536,70 @@ body.index .section-one .btn {
   margin-top: 20px;
   width: 100px;
 }
-body.index .section-two {
+body.index .section-two .header {
   font-size: 40px;
 }
-body.index .section-two .text {
+body.index .section-two .subheader {
   font-size: 20px;
 }
-body.index .section-three {
+body.index .section-two .icon {
+  display: inline-block;
+  font-size: 40px;
+  border-radius: 50%;
+  border: 1px solid #333333;
+  padding: 40px 55px;
+  margin-top: 40px;
+  color: #ff7600;
+}
+body.index .section-two .info {
+  font-size: 20px;
+  margin-top: 10px;
+}
+body.index .section-two .explanation {
+  font-size: 14px;
+  margin-top: 10px;
+}
+body.index .section-three,
+body.index .section-four,
+body.index .section-five {
   text-align: left;
 }
-body.index .section-three ul > li {
-  font-size: 14px;
+body.index .section-three .container:nth-child(1),
+body.index .section-four .container:nth-child(1),
+body.index .section-five .container:nth-child(1) {
+  padding: 30px 0;
+}
+body.index .section-three .wrapper-header,
+body.index .section-four .wrapper-header,
+body.index .section-five .wrapper-header {
+  position: absolute;
+  margin-top: -150px;
+}
+body.index .section-three .wrapper-reasoning,
+body.index .section-four .wrapper-reasoning,
+body.index .section-five .wrapper-reasoning {
   padding: 20px 0;
+  text-align: center;
 }
-body.index .section-three ul > li .icon {
+body.index .section-three .wrapper-reasoning .icon,
+body.index .section-four .wrapper-reasoning .icon,
+body.index .section-five .wrapper-reasoning .icon {
   display: inline-block;
-  padding: 20px;
-  border: 1px solid #333333;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
-  margin-right: 20px;
+  border: 1px solid #333333;
+  padding: 40px 55px;
+  font-size: 40px;
 }
-body.index .section-three ul > li .icon .fa {
-  font-size: 24px;
+body.index .section-three .header,
+body.index .section-four .header,
+body.index .section-five .header {
+  font-size: 40px;
+}
+body.index .section-three .note,
+body.index .section-four .note,
+body.index .section-five .note {
+  font-size: 12px;
   color: #ff7600;
-  padding: 0 2px 0 4px;
-}
-body.index .section-three ul > li:nth-child(2) .icon .fa {
-  padding: 0 0 0 2px;
 }
 .profile .menu-wrapper-left {
   background-color: #ff7600;
